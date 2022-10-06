@@ -9,10 +9,10 @@ import subprocess
 import sys
 import tensorflow_hub as hub
 
-def install(package):
-    subprocess.check_call([sys.executable,"-m","pip","install",package])
+# def install(package):
+#     subprocess.check_call([sys.executable,"-m","pip","install",package])
 
-install('simplemma==0.5.0')
+# install('simplemma==0.5.0')
 
 st.title('Safe/Unsafe Driving Prediction on the basis of Drivers Action')
 st.markdown('This Project is built as part of University of Hyderabads Machine Learning and Applied AI course')
